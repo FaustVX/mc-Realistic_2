@@ -1,0 +1,2 @@
+execute at @a[predicate=realistic:sneak] if block ~ ~ ~ integrateddynamics:squeezer[axis=x, height=7] run setblock ~ ~ ~ integrateddynamics:squeezer[axis=x, height=1]
+execute at @a[predicate=realistic:sneak] if block ~ ~ ~ integrateddynamics:squeezer[axis=z, height=7] run setblock ~ ~ ~ integrateddynamics:squeezer[axis=z, height=1]

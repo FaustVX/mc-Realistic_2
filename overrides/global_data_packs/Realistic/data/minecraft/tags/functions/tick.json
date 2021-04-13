@@ -1,0 +1,7 @@
+{
+    "replace": false,
+    "values": [
+        "realistic:reset_squeezer",
+        "realistic:place_torches/place_torches"
+    ]
+}

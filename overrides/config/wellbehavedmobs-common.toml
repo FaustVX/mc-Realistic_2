@@ -1,0 +1,42 @@
+
+[general]
+	#Blazes don't call their buddies for help when attacking anymore and have a decreased follow range.
+	"Helpless Blazes" = true
+	#Instead of standing still, creepers will stay close to their target and dodge attacks while exploding.
+	"Stalking Creepers" = false
+	#Various monsters run from creepers about to explode.
+	"Scared Monsters" = true
+	#Heart particles appear around animals as long as they are in love instead of only once when they enter love mode.
+	"Breeding Hearts" = true
+	#Endermen aren't lightning fast and can't sense you from the other end of the world anymore.
+	"Chilled Endermen" = true
+	#Change rabbit ai for them to no longer be scared as easily. Also add some basic animal behaviour (such as kits following their parents) which for some reason is missing by default.
+	"Brave Rabbits" = true
+	#Sheep flee from wolves instead of letting themselves be eaten, because why would they do that.
+	"Smart Sheep" = true
+	#Remove the very annoying and buggy strafing behavior from skeletons when attacking.
+	"Skeleton Attack" = true
+
+[scared_monsters]
+	#Mobs that will run away from creepers about to explode.
+	#Format for every entry is "<namespace>:<path>". Path may use asterisk as wildcard parameter.
+	"Scared Monster List" = ["minecraft:creeper", "minecraft:skeleton", "minecraft:spider", "minecraft:cave_spider", "minecraft:witch", "minecraft:zombie", "minecraft:zombie_villager", "minecraft:zombified_piglin", "minecraft:husk", "minecraft:stray", "minecraft:wither_skeleton", "minecraft:drowned"]
+
+[chilled_endermen]
+	#Decrease follow range to 32 blocks from a ridiculously high 64 block count.
+	"Decrease Follow Range" = false
+	#Enderman don't run even faster when attacking.
+	"Chilled Attack Speed" = true
+
+[skeleton_attack]
+	#Skeletons will shoot faster the closer their target moves to them.
+	"Quick Bow Drawing" = true
+	#Makes skeletons slowly walk backwards when their target moves in to close to them.
+	"Escape Target" = false
+
+[helpless_blazes]
+	#Other blazes aren't alerted when a blaze is fighting a player.
+	"No Call For Help" = true
+	#Decrease follow range to 32 blocks from 48.
+	"Decrease Follow Range" = true
+

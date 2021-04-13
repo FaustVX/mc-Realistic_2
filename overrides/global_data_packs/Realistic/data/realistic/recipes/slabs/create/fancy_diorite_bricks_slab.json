@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "_",
+    "_"
+  ],
+  "key": {
+    "_": {
+      "item": "create:fancy_diorite_bricks_slab"
+    }
+  },
+  "result": {
+    "item": "create:fancy_diorite_bricks"
+  }
+}

@@ -1,0 +1,16 @@
+{
+	"folders": [
+		{
+			"path": "..\\..\\..\\config"
+		},
+		{
+			"path": "..\\..\\..\\defaultconfigs"
+		},
+		{
+			"path": "..\\..\\..\\global_data_packs"
+		},
+		{
+			"path": ".\\"
+		}
+	]
+}

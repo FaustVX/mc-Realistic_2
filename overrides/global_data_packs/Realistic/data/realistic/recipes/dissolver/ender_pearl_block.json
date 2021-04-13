@@ -1,0 +1,30 @@
+{
+    "type": "alchemistry:dissolver",
+    "group": "minecraft:misc",
+    "input": {
+      "item": "charm:ender_pearl_block"
+    },
+    "output": {
+      "rolls": 1,
+      "relativeProbability": true,
+      "groups": [
+        {
+          "probability": 1.0,
+          "stacks": [
+            {
+              "item": "chemlib:element_silicon",
+              "count": 144
+            },
+            {
+              "item": "chemlib:element_mercury",
+              "count": 144
+            },
+            {
+              "item": "chemlib:element_neodymium",
+              "count": 144
+            }
+          ]
+        }
+      ]
+    }
+  }
